@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --pri-gri : #49ff38;
+    --pri-pur: #744aff;
+}
+
+@layer utilities {
+    .pgreen{
+        color: var(--pri-gri)
+    }
+    .ppurp{
+        color: var(--pri-pur)
+    }
+    .mainhead{
+        font-weight: bold;
+        font-size : 5.1em;
+    }
+    .rded{
+        border-radius: 50%;
+    }
+}
