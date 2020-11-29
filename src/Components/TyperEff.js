@@ -5,14 +5,14 @@ const TyperEff = () => {
     return(
         <ReactTypingEffect className="mainhead ml-5"
                     text={[ "Hey There!", "We are Creative.", "We Love to Hack.", "We are Hunters.","We are Smexy.","We are D3C4gon."]}
-                    cursorRenderer={cursor => <h1>{cursor}</h1>}
+                    cursorRenderer={cursor => <div>{cursor}</div>}
                     speed = {80}
                     typingDelay = {1000}
                     eraseDelay = {2500}
                     eraseSpeed = {50}
                     displayTextRenderer={(text, i) => {
                       return (
-                        <h1>
+                        <div>
                           {text.split('').map((char, i) => {
                             const key = `${i}`;
                             return (
@@ -22,7 +22,7 @@ const TyperEff = () => {
                               >{char}</span>
                             );
                           })}
-                        </h1>
+                        </div>
                       );
                     }}        
                   />

@@ -7,6 +7,15 @@
     --pri-pur: #744aff;
 }
 
+@layer base {
+    h1 {
+      @apply text-5xl;
+    }
+    h2 {
+      @apply text-3xl;
+    }
+  }
+
 @layer utilities {
     .pgreen{
         color: var(--pri-gri)
@@ -20,5 +29,8 @@
     }
     .rded{
         border-radius: 50%;
+    }
+    .bgpurp{
+        background-color: var(--pri-pur)
     }
 }
