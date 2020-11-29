@@ -14,18 +14,18 @@ const Navbar = () => {
             </div>
             <div className="w-full flex-grow block lg:flex lg:w-auto lg:items-center">
                 <div className="text-md lg:flex-grow">
-                    <a href='#' className="block mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4">
-                        Home
+                    <a href='#about' className="block mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4">
+                        About Us
                     </a>
                 
-                    <a href='#' className="block mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4">
-                            Home
+                    <a href='#achievements' className="block mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4">
+                            Achievements
                     </a>
-                    <a href='#' className="block mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4">
-                            Home
+                    <a href='#faces' className="block mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4">
+                            Faces
                     </a>
-                    <a href='#' className="block mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4">
-                            Home
+                    <a href='#Links' className="block mt-4 lg:inline-block lg:mt-0 text-purple-200 hover:text-white mr-4">
+                            Contact Us
                     </a>
                 </div>
                 <div>
