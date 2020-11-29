@@ -8,10 +8,16 @@ import Faces from './Components/Faces';
 import Footer from './Components/Footer';
 import {Scrollbar} from 'react-scrollbars-custom';
 
+
 const App = () => {
+
+    const styleObj = {
+    height: "100vh",
+    width: "100vw"
+    }
     return(
         <>
-            <Scrollbar style={{width: 100 , height: 100 }}>    
+            <Scrollbar style={styleObj}>    
                 <Navbar />
                 <Header />
                 <About />
